@@ -11,20 +11,7 @@ const Stack = createNativeStackNavigator();
 
 const App = () => {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen 
-        name="Home"
-        component={Home}
-        options={{ title: "My Daily Schedule"}}
-        />
-        <Stack.Screen 
-        name="Schedule"
-        component={Schedule}
-        options={{ title: "Today's Schedule"}}
-        />
-      </Stack.Navigator>
-    </NavigationContainer>
+    // Add the navigation stack code here!  https://reactnative.dev/docs/navigation
   )
 };
 
