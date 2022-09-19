@@ -10,7 +10,7 @@ const Schedule = ({ navigation, route }) => {
         navigation.setOptions({ headerTitle: currentTitle });
     }, [route.params.dayToPrint]);
     return (
-        <Text>Here is where the schedule goes!</Text>
+        <Text>Here is where the schedule goes!  Use various styles to make it look nice!</Text>
     )
 
 }

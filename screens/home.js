@@ -5,6 +5,7 @@ import {
   ScrollView,
   StatusBar,
   useColorScheme,
+  Text,
   View,
   Button,
   Alert,
@@ -32,46 +33,10 @@ const Home = ({ navigation }) => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
-        <View style={styles.sectionContainer}>
-        <Button
-          title="Monday's Schedule"
-          onPress={() =>
-            navigation.navigate('Schedule', { dayToPrint: 'Monday' })
-          }
-        />
-        </View>
-        <View style={styles.sectionContainer}>
-        <Button
-          title="Tuesday's Schedule"
-          onPress={() =>
-            navigation.navigate('Schedule', { dayToPrint: 'Tuesday' })
-          }
-        />
-        </View>
-        <View style={styles.sectionContainer}>
-        <Button
-          title="Wednesday's Schedule"
-          onPress={() =>
-            navigation.navigate('Schedule', { dayToPrint: 'Wednesday' })
-          }
-        />
-        </View>
-        <View style={styles.sectionContainer}>
-        <Button
-          title="Thursday's Schedule"
-          onPress={() =>
-            navigation.navigate('Schedule', { dayToPrint: 'Thursday' })
-          }
-        />
-        </View>
-        <View style={styles.sectionContainer}>
-        <Button
-          title="Friday's Schedule"
-          onPress={() =>
-            navigation.navigate('Schedule', { dayToPrint: 'Friday' })
-          }
-        />
-        </View>
+        <Text>Add your buttons here!
+        https://reactnative.dev/docs/button
+        https://reactnative.dev/docs/navigation
+        </Text>
 
       </ScrollView>
     </SafeAreaView>
